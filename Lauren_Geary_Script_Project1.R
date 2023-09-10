@@ -35,6 +35,7 @@ species.obs
 dat %>%
   group_by(species) %>%
   summarise(n = n())
+
 species.n<- dat %>%
   group_by(species) %>%
   summarise(n = n())
