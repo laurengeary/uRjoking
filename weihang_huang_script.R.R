@@ -40,8 +40,7 @@ species.n
 dat %>% 
   count(species,specimen) %>%
   print() %>%
-  count(species,,name = "n.specimens")
-
+  count(species,name = "n.specimens")
 #Loop When You Can
 for(i in 1:10) print(i)
 pdf("species_quadrant.pdf")
