@@ -2,7 +2,6 @@
 
 library(ggplot2)
 library(tidyverse)
-setwd("/Users/laurengeary/Desktop/uRjoking")
 
 #1: A dat variable containing the scales dataset
 dat<-read.csv("scales.csv")
